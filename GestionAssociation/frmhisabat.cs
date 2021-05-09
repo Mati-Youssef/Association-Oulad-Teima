@@ -41,7 +41,8 @@ namespace GestionAssociation
         }
         string y;
         public string  check()
-        {  
+        {
+            
             if (radioButton1.Checked == true)
             {
                y = "المصاريف";
@@ -133,6 +134,11 @@ namespace GestionAssociation
             {
                 label3.Text = "مجموع المصريف :";
             }
+
+        }
+
+        private void groupControl1_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }
